@@ -94,13 +94,6 @@ export default function Navbar(props) {
               ) : (
                 ""
               )}
-
-              <button
-                onClick={handleLogout}
-                className="btn bg-white text-success"
-              >
-                Logout
-              </button>
             </div>
           </div>
         </div>
