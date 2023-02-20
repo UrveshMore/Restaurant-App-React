@@ -1,0 +1,47 @@
+.cd{
+    border-radius: 16px;
+    margin-top: 20px;
+    height: 16rem;
+}
+.upper_data h4{
+    font-size: 18px;
+    color: rgba(17,17,17,0.849);
+    letter-spacing: .5px;
+    font-weight: 500;
+}
+.upper_data span{
+    background-color: rgba(240, 112, 26, 0.721);
+    border-radius: 6px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 2px 1px;
+    width: 45px;
+}
+.lower_data h5{
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+    color:rgba(17,17,17,0.849) ;
+}
+.lower_data span{
+    font-size: 15px;
+    letter-spacing: .3px;
+    color:rgba(17,17,17,0.849) ;
+}
+.extra{
+    border-bottom: solid rgba(17,17,17,0.849);
+}
+.hove{
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.hove:hover{
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.368);
+    transition: .2s;
+}
+.active{
+    color: red;
+}
