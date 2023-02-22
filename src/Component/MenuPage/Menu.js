@@ -76,7 +76,7 @@ const Menu = (props) => {
                     </select>
                   </div>
                   <div className="lower_data d-flex justify-content-between align-item-center">
-                    <h4 className="mx-1"> {eve.price}/-</h4>
+                    <h5 className="mx-1"> {eve.price}/-</h5>
                     <button
                       className="btn btn-success mx-2"
                       onClick={() => handleAddToCart(eve)}
