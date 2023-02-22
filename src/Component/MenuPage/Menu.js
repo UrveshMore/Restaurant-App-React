@@ -33,6 +33,7 @@ const Menu = (props) => {
       price: finalPrice,
       qty: qty,
     });
+    setQty(1);
   };
   let finalPrice =
     qty *
