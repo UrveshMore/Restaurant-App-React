@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Badge from "react-bootstrap/Badge";
 
 import { useCart } from "./ContextReducer";
@@ -10,18 +10,7 @@ export default function Navbar(props) {
   let data = useCart();
   const [cartView, setCartView] = useState(false);
   localStorage.setItem("temp", "first");
-  let navigate = useNavigate();
-  const handleLogout = () => {
-    localStorage.removeItem("token");
 
-    navigate("/login");
-  };
-
-  const loadCart = () => {
-    setCartView(true);
-  };
-
-  const items = useCart();
   return (
     <div>
       <nav
@@ -36,7 +25,8 @@ export default function Navbar(props) {
       >
         <div className="container-fluid">
           <Link className="navbar-brand fs-1 fst-italic" to="/">
-            GoFood
+            GoFood<span>🍕</span>
+            {"  "}
           </Link>
           <button
             className="navbar-toggler"

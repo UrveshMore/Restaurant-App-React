@@ -14,7 +14,7 @@ export default function Cart(props) {
       </div>
     );
   }
-  //   let finalPrice = qty * parseInt(props.foodItem.price);
+
   let totalPrice = data.reduce((total, food) => total + food.price, 0);
   return (
     <div>
