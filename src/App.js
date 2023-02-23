@@ -10,6 +10,7 @@ import { useState } from "react";
 import { CartProvider } from "./Component/ContextReducer";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Err from "./Component/MenuPage/Err";
 
 function App() {
   const [menuDataa, setMenuData] = useState([]);
@@ -28,11 +29,9 @@ function App() {
                 path="/res"
                 element={<Cards getMenuData={getMenuData} />}
               />
+
               <Route path="/menu" element={<Menu menuDataa={menuDataa} />} />
-              {/* <Route exact path="/" element={<Home />} />
-            <Route exact path="/login" element={<Login />} />
-            <Route exact path="/signup" element={<Signup />} />
-            <Route exact path="/myorder" element={<MyOrder />} /> */}
+              <Route path="*" element={<Err></Err>} />
             </Routes>
           </div>
         </Router>

@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
 
 function Err() {
   return (
-    <div>Err</div>
-  )
+    <>
+      <div className="text-center " style={{ color: "red" }}>
+        <br />
+        <br />
+        <h1>No Page Found...!</h1>
+      </div>
+    </>
+  );
 }
 
-export default Err
+export default Err;

@@ -28,32 +28,51 @@ const Cards = () => {
         <h2 className="px-4" style={{ fontWeight: 400, fontSize: 60 }}>
           Restaurant In Pune
         </h2>
+        <div>
+          <input
+            type="text"
+            placeholder="Search...."
+            onChange={(event) => {
+              setSearch(event.target.value);
+            }}
+          />
+        </div>
         <div className="row mt-2 d-flex justify-content-between align-item-center">
-          {restaurantData.map((event, index) => {
-            return (
-              <Card
-                style={{ width: "22rem", border: "none" }}
-                className="mb-4 hove"
-                onClick={goToMenu}
-                key={index}
-              >
-                <Card.Img variant="top" src={event.imgdata} className="cd" />
+          {restaurantData
+            .filter((val) => {
+              if (search == "") {
+                return val;
+              } else if (
+                val.rname.toLowerCase().includes(search.toLowerCase())
+              ) {
+                return val;
+              }
+            })
+            .map((event, index) => {
+              return (
+                <Card
+                  style={{ width: "22rem", border: "none" }}
+                  className="mb-4 hove"
+                  onClick={goToMenu}
+                  key={index}
+                >
+                  <Card.Img variant="top" src={event.imgdata} className="cd" />
 
-                <div className="card_body my-1">
-                  <div className="upper_data d-flex justify-content-between align-item-center">
-                    <h4 className="mt">{event.rname}</h4>
-                    <span>{event.rating}&nbsp;★</span>
+                  <div className="card_body my-1">
+                    <div className="upper_data d-flex justify-content-between align-item-center">
+                      <h4 className="mt">{event.rname}</h4>
+                      <span>{event.rating}&nbsp;★</span>
+                    </div>
+                    <div className="lower_data d-flex justify-content-between align-item-center">
+                      <h5>{event.address}</h5>
+                      <span> {event.price}</span>
+                    </div>
+                    <div className="extra"></div>
+                    <br />
                   </div>
-                  <div className="lower_data d-flex justify-content-between align-item-center">
-                    <h5>{event.address}</h5>
-                    <span> {event.price}</span>
-                  </div>
-                  <div className="extra"></div>
-                  <br />
-                </div>
-              </Card>
-            );
-          })}
+                </Card>
+              );
+            })}
         </div>
       </section>
     </>

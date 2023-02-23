@@ -1,7 +1,8 @@
 import React from "react";
 import "./style.css";
 import { useCart, useDispatchCart } from "./ContextReducer";
-
+import { MdDelete } from "react-icons/md";
+import { AiOutlineDelete } from "react-icons/ai";
 export default function Cart(props) {
   let data = useCart();
   let dispatch = useDispatchCart();
@@ -26,7 +27,7 @@ export default function Cart(props) {
               <th scope="col">Name</th>
               <th scope="col">Quantity</th>
               <th scope="col">Amount</th>
-              <th scope="col"></th>
+              <th scope="col">Action</th>
               <th scope="col"></th>
             </tr>
           </thead>
@@ -46,7 +47,7 @@ export default function Cart(props) {
                         }}
                       >
                         {" "}
-                        DEL
+                        🗑
                       </button>
                     </button>{" "}
                   </td>
