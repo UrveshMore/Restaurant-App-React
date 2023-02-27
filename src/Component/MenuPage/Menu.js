@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import Navbar from "../Navbar";
 import Card from "react-bootstrap/Card";
 import { useDispatch } from "react-redux";
-import { ADD } from "../../redux/actions/action";
+import { ADD_DATA } from "../../React-redux/Menu-actions/menuaction";
 
 const Menu = () => {
   const [menuData, setMenuData] = useState([]);
@@ -26,7 +26,7 @@ const Menu = () => {
   //send data to cart
   const dispatch = useDispatch();
   const send = (e) => {
-    dispatch(ADD(e));
+    dispatch(ADD_DATA(e));
   };
 
   return (
@@ -72,7 +72,7 @@ const Menu = () => {
                     </div>
                     <div className="text-center ">
                       <button
-                        className="btn btn-success mx-5"
+                        className="btn btn-warning mx-5"
                         onClick={() => send(eve)}
                       >
                         Add to Cart

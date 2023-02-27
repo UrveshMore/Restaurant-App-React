@@ -2,7 +2,7 @@ import { combineReducers } from "redux";
 
 import { cartreducer } from "./reducer";
 
-const rootred = combineReducers({
+const mainReduser = combineReducers({
   cartreducer,
 });
-export default rootred;
+export default mainReduser;

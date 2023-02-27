@@ -3,9 +3,14 @@ import "./style.css";
 import { Table } from "react-bootstrap";
 import { useNavigate, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { ADD, DLT, REMOVE } from "../../redux/actions/action";
+
 import { Link } from "react-router-dom";
 import Badge from "react-bootstrap/Badge";
+import {
+  ADD_DATA,
+  DELETE,
+  REMOVE,
+} from "../../React-redux/Menu-actions/menuaction";
 const MenuDetails = () => {
   const [data, setData] = useState([]);
   const { id } = useParams();
@@ -14,12 +19,12 @@ const MenuDetails = () => {
   const dispatch = useDispatch();
   //send data to the cart
   const send = (e) => {
-    dispatch(ADD(e));
+    dispatch(ADD_DATA(e));
   };
 
   // remove item from cart
   const dlt = (id) => {
-    dispatch(DLT(id));
+    dispatch(DELETE(id));
     history("/menu");
   };
   const compare = () => {

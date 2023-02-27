@@ -4,7 +4,7 @@ const INIT_STATE = {
 
 export const cartreducer = (state = INIT_STATE, action) => {
   switch (action.type) {
-    case "ADD_CART":
+    case "ADD":
       const IteamIndex = state.carts.findIndex(
         (iteam) => iteam.id === action.payload.id
       );
@@ -31,7 +31,7 @@ export const cartreducer = (state = INIT_STATE, action) => {
         carts: data,
       };
 
-    case "RMV_ONE":
+    case "RMV":
       const IteamIndex_dec = state.carts.findIndex(
         (iteam) => iteam.id === action.payload.id
       );

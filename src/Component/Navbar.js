@@ -1,20 +1,22 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Badge from "react-bootstrap/Badge";
 import Menu from "@mui/material/Menu";
 import Table from "react-bootstrap/esm/Table";
 import { useDispatch, useSelector } from "react-redux";
-import { DLT } from "../redux/actions/action";
+
 import "./style.css";
+import { DELETE } from "../React-redux/Menu-actions/menuaction";
 
 export default function Navbar(props) {
   const [price, setPrice] = useState(0);
   const getdata = useSelector((state) => state.cartreducer.carts);
-
+  const history = useNavigate();
   const dispatch = useDispatch();
   const dlt = (id) => {
-    dispatch(DLT(id));
+    dispatch(DELETE(id));
   };
+
   //for cart
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
@@ -36,7 +38,10 @@ export default function Navbar(props) {
   useEffect(() => {
     total();
   }, [total]);
-
+  const handleOrder = () => {
+    history("/");
+    alert("Your order placed successfully");
+  };
   return (
     <div>
       <nav
@@ -167,6 +172,14 @@ export default function Navbar(props) {
                       })}
                       <p className="text-center">Total :₹ {price}</p>
                     </tbody>
+                    <div className="text-center ">
+                      <button
+                        className="order bg bg-success mx-5"
+                        onClick={handleOrder}
+                      >
+                        Place Order
+                      </button>
+                    </div>
                   </Table>
                 </div>
               ) : (
