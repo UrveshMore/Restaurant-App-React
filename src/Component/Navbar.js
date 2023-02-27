@@ -4,7 +4,6 @@ import Badge from "react-bootstrap/Badge";
 import Menu from "@mui/material/Menu";
 import Table from "react-bootstrap/esm/Table";
 import { useDispatch, useSelector } from "react-redux";
-
 import "./style.css";
 import { DELETE } from "../React-redux/Menu-actions/menuaction";
 
@@ -45,7 +44,7 @@ export default function Navbar(props) {
   return (
     <div>
       <nav
-        className="navbar navbar-expand-lg navbar-dark bg-success position-sticky"
+        className="navbar navbar-expand-lg navbar-dark bgColor position-sticky"
         style={{
           boxShadow: "0px 10px 20px black",
           filter: "blur(20)",
@@ -174,7 +173,7 @@ export default function Navbar(props) {
                     </tbody>
                     <div className="text-center ">
                       <button
-                        className="order bg bg-success mx-5"
+                        className="order bg bg-warning mx-5"
                         onClick={handleOrder}
                       >
                         Place Order

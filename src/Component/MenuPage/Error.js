@@ -3,7 +3,7 @@ import React from "react";
 function Err() {
   return (
     <>
-      <div className="text-center " style={{ color: "red" }}>
+      <div className="text-center ">
         <br />
         <br />
         <h1>No Page Found...!</h1>

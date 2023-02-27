@@ -6,7 +6,7 @@ import Home from "./Component/Home";
 import { useState } from "react";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Err from "./Component/MenuPage/Err";
+import Error from "./Component/MenuPage/Error";
 import MenuDetails from "./Component/MenuPage/MenuDetails";
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
               path="/menuDetails/:id"
               element={<MenuDetails></MenuDetails>}
             />
-            <Route path="*" element={<Err></Err>} />
+            <Route path="*" element={<Error></Error>} />
           </Routes>
         </div>
       </Router>
