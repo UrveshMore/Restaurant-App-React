@@ -96,7 +96,7 @@ const MenuDetails = () => {
         </div>
       </nav>
       <div className="container mt-2">
-        <h2 className="text-center">Iteams Details Page</h2>
+        <h2 className="text-center">Food Details Page</h2>
 
         <section className="container mt-3">
           <div className="iteamsdetails">
@@ -104,10 +104,6 @@ const MenuDetails = () => {
               {data.map((ele) => {
                 return (
                   <>
-                    <div className="items_img">
-                      <img src={ele.img} alt="" />
-                    </div>
-
                     <div className="details">
                       <Table>
                         <tr>
@@ -125,33 +121,6 @@ const MenuDetails = () => {
                               {" "}
                               <strong>Total</strong> :₹ {ele.price * ele.qnty}
                             </p>
-                            <div
-                              className="mt-5 d-flex justify-content-between align-items-center"
-                              style={{
-                                width: 100,
-                                cursor: "pointer",
-                                background: "#ddd",
-                                color: "#111",
-                              }}
-                            >
-                              <span
-                                style={{ fontSize: 24 }}
-                                onClick={
-                                  ele.qnty <= 1
-                                    ? () => dlt(ele.id)
-                                    : () => remove(ele)
-                                }
-                              >
-                                -
-                              </span>
-                              <span style={{ fontSize: 22 }}>{ele.qnty}</span>
-                              <span
-                                style={{ fontSize: 24 }}
-                                onClick={() => send(ele)}
-                              >
-                                +
-                              </span>
-                            </div>
                           </td>
                           <td>
                             <p>
@@ -181,10 +150,40 @@ const MenuDetails = () => {
                                   }}
                                 ></i>{" "}
                               </span>
+                              <div
+                                className="mt-5 d-flex justify-content-between align-items-center"
+                                style={{
+                                  width: 100,
+                                  cursor: "pointer",
+                                  background: "#ddd",
+                                  color: "#111",
+                                }}
+                              >
+                                <span
+                                  style={{ fontSize: 24 }}
+                                  onClick={
+                                    ele.qnty <= 1
+                                      ? () => dlt(ele.id)
+                                      : () => remove(ele)
+                                  }
+                                >
+                                  -
+                                </span>
+                                <span style={{ fontSize: 22 }}>{ele.qnty}</span>
+                                <span
+                                  style={{ fontSize: 24 }}
+                                  onClick={() => send(ele)}
+                                >
+                                  +
+                                </span>
+                              </div>
                             </p>
                           </td>
                         </tr>
                       </Table>
+                    </div>
+                    <div className="items_img">
+                      <img src={ele.img} alt="" />
                     </div>
                   </>
                 );

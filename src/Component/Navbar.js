@@ -96,6 +96,7 @@ export default function Navbar(props) {
               </div>
             </div>
             <Menu
+              className="navCartMenu"
               id="basic-menu"
               anchorEl={anchorEl}
               open={open}
@@ -106,14 +107,14 @@ export default function Navbar(props) {
             >
               {getdata.length ? (
                 <div
-                  className="card_details"
+                  className="card_details navCart"
                   style={{ width: "24rem", padding: 10 }}
                 >
                   <Table>
                     <thead>
                       <tr>
                         <th>Photo</th>
-                        <th>Restaurant Name</th>
+                        <th>Food Name</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -184,7 +185,7 @@ export default function Navbar(props) {
                       cursor: "pointer",
                     }}
                   ></i>
-                  <p style={{ fontSize: 22 }}>Your carts is empty</p>
+                  <p style={{ fontSize: 22 }}>carts is empty</p>
                   <img
                     src="./cart.gif"
                     alt=""

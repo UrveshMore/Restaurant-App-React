@@ -118,3 +118,10 @@
   .aa{
     color: red;
   }
+
+  .navCart{
+    background-color: #4b4b4b2f;
+  }
+  .navCartMenu{
+    background-color: rgba(224, 224, 224, 0.258);
+  }
