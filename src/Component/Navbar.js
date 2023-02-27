@@ -1,15 +1,41 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Badge from "react-bootstrap/Badge";
-
-import { useCart } from "./ContextReducer";
-import Cart from "./Cart";
-import Modal from "../Modal";
+import Menu from "@mui/material/Menu";
+import Table from "react-bootstrap/esm/Table";
+import { useDispatch, useSelector } from "react-redux";
+import { DLT } from "../redux/actions/action";
+import "./style.css";
 
 export default function Navbar(props) {
-  let data = useCart();
-  const [cartView, setCartView] = useState(false);
-  localStorage.setItem("temp", "first");
+  const [price, setPrice] = useState(0);
+  const getdata = useSelector((state) => state.cartreducer.carts);
+
+  const dispatch = useDispatch();
+  const dlt = (id) => {
+    dispatch(DLT(id));
+  };
+  //for cart
+  const [anchorEl, setAnchorEl] = useState(null);
+  const open = Boolean(anchorEl);
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+  //total price
+  const total = () => {
+    let price = 0;
+    getdata.map((ele, k) => {
+      price = ele.price * ele.qnty + price;
+    });
+    setPrice(price);
+  };
+
+  useEffect(() => {
+    total();
+  }, [total]);
 
   return (
     <div>
@@ -49,42 +75,125 @@ export default function Navbar(props) {
                 >
                   Home
                 </Link>{" "}
-                {/* index.css - nav-link color white */}
               </li>
-              {localStorage.getItem("token") ? (
-                <li className="nav-item">
-                  <Link
-                    className="nav-link fs-5 mx-3 active"
-                    aria-current="page"
-                    to="/myorder"
-                  >
-                    My Orders
-                  </Link>{" "}
-                  {/* index.css - nav-link color white */}
-                </li>
-              ) : (
-                ""
-              )}
             </ul>
             <div>
               <div
                 className="btn bg-white text-success mx-2 "
-                onClick={() => setCartView(true)}
+                onClick={handleClick}
               >
                 My Cart {""}
-                <Badge pill bg="danger">
-                  {data.length}
+                <Badge
+                  pill
+                  bg="danger"
+                  id="basic-button"
+                  aria-controls={open ? "basic-menu" : undefined}
+                  aria-haspopup="true"
+                  aria-expanded={open ? "true" : undefined}
+                >
+                  {getdata.length}
                 </Badge>
               </div>
-
-              {cartView ? (
-                <Modal onClose={() => setCartView(false)}>
-                  <Cart></Cart>
-                </Modal>
-              ) : (
-                ""
-              )}
             </div>
+            <Menu
+              id="basic-menu"
+              anchorEl={anchorEl}
+              open={open}
+              onClose={handleClose}
+              MenuListProps={{
+                "aria-labelledby": "basic-button",
+              }}
+            >
+              {getdata.length ? (
+                <div
+                  className="card_details"
+                  style={{ width: "24rem", padding: 10 }}
+                >
+                  <Table>
+                    <thead>
+                      <tr>
+                        <th>Photo</th>
+                        <th>Restaurant Name</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {getdata.map((e) => {
+                        return (
+                          <>
+                            <tr>
+                              <td>
+                                <Link
+                                  to={`/menuDetails/${e.id}`}
+                                  onClick={handleClose}
+                                >
+                                  <img
+                                    src={e.img}
+                                    style={{ width: "5rem", height: "5rem" }}
+                                    alt=""
+                                  />
+                                </Link>
+                              </td>
+                              <td>
+                                <p>{e.rname}</p>
+                                <p>Price : ₹{e.price}</p>
+                                <p>Quantity : {e.qnty}</p>
+                                <p
+                                  style={{
+                                    color: "red",
+                                    fontSize: 20,
+                                    cursor: "pointer",
+                                  }}
+                                  onClick={() => dlt(e.id)}
+                                >
+                                  <i className="fas fa-trash smalltrash"></i>
+                                </p>
+                              </td>
+
+                              <td
+                                className="mt-5"
+                                style={{
+                                  color: "red",
+                                  fontSize: 20,
+                                  cursor: "pointer",
+                                }}
+                                onClick={() => dlt(e.id)}
+                              >
+                                <i className="fas fa-trash largetrash"></i>
+                              </td>
+                            </tr>
+                          </>
+                        );
+                      })}
+                      <p className="text-center">Total :₹ {price}</p>
+                    </tbody>
+                  </Table>
+                </div>
+              ) : (
+                <div
+                  className="card_details d-flex justify-content-center align-items-center"
+                  style={{ width: "24rem", padding: 10, position: "relative" }}
+                >
+                  <i
+                    className="fas fa-close smallclose"
+                    onClick={handleClose}
+                    style={{
+                      position: "absolute",
+                      top: 2,
+                      right: 20,
+                      fontSize: 23,
+                      cursor: "pointer",
+                    }}
+                  ></i>
+                  <p style={{ fontSize: 22 }}>Your carts is empty</p>
+                  <img
+                    src="./cart.gif"
+                    alt=""
+                    className="emptycart_img"
+                    style={{ width: "5rem", padding: 10 }}
+                  />
+                </div>
+              )}
+            </Menu>
           </div>
         </div>
       </nav>

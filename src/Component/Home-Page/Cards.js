@@ -7,7 +7,7 @@ const Cards = () => {
   const [restaurantData, setRestaurantData] = useState([]);
   const [search, setSearch] = useState([]);
   const navigate = useNavigate();
-
+  //fetch data from api
   const fetchData = () => {
     axios
       .get("http://localhost:3003/restaurant")
@@ -18,8 +18,8 @@ const Cards = () => {
   useEffect(() => {
     fetchData();
   }, []);
-
-  const goToMenu = (event) => {
+  // nevigate to menu
+  const goToMenu = () => {
     navigate("/menu");
   };
   return (

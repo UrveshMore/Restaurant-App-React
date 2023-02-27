@@ -1,14 +1,16 @@
 import axios from "axios";
 import "./style.css";
 import React, { useState, useEffect } from "react";
-import "./style.css";
-import { useDispatchCart } from "../ContextReducer";
 import Navbar from "../Navbar";
 import Card from "react-bootstrap/Card";
-const Menu = (props) => {
+import { useDispatch } from "react-redux";
+import { ADD } from "../../redux/actions/action";
+
+const Menu = () => {
   const [menuData, setMenuData] = useState([]);
   const [search, setSearch] = useState("");
-  console.log(props.menuDataa);
+
+  //fetch food menu from api
   const fetchData = () => {
     axios
       .get("http://localhost:3003/menu")
@@ -21,28 +23,11 @@ const Menu = (props) => {
     fetchData();
   }, []);
 
-  let dispatch = useDispatchCart();
-  // let data = useCart();
-  const [qty, setQty] = useState(1);
-
-  const handleAddToCart = async (eve) => {
-    await dispatch({
-      type: "ADD",
-      id: eve.id,
-      name: eve.title,
-      img: eve.img,
-      price: finalPrice,
-      qty: qty,
-    });
-    setQty(1);
+  //send data to cart
+  const dispatch = useDispatch();
+  const send = (e) => {
+    dispatch(ADD(e));
   };
-  let finalPrice =
-    qty *
-    parseInt(
-      menuData.map((eve) => {
-        return eve.price;
-      })
-    );
 
   return (
     <>
@@ -83,25 +68,12 @@ const Menu = (props) => {
                       <h4 className="mx-1" style={{ fontSize: 22 }}>
                         {eve.title}
                       </h4>
-                      <select
-                        name=""
-                        className="my-1 mx-4 bg-success rounded"
-                        onChange={(e) => setQty(e.target.value)}
-                      >
-                        {Array.from(Array(5), (e, i) => {
-                          return (
-                            <option key={i + 1} value={i + 1}>
-                              {i + 1}
-                            </option>
-                          );
-                        })}
-                      </select>
+                      <h5 className="mx-1">₹ {eve.price}/-</h5>
                     </div>
-                    <div className="lower_data d-flex justify-content-between align-item-center">
-                      <h5 className="mx-1"> {eve.price}/-</h5>
+                    <div className="text-center ">
                       <button
-                        className="btn btn-success mx-2"
-                        onClick={() => handleAddToCart(eve)}
+                        className="btn btn-success mx-5"
+                        onClick={() => send(eve)}
                       >
                         Add to Cart
                       </button>
