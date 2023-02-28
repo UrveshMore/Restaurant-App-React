@@ -75,7 +75,7 @@ export default function Navbar(props) {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item navHome ">
+              <li className="nav-item  ">
                 <Link
                   className="nav-link fs-5 mx-3 active"
                   aria-current="page"
@@ -88,7 +88,7 @@ export default function Navbar(props) {
             </ul>
             <div>
               <div
-                className="btn bg-white mx-2 "
+                className="btn bg-white mx-2 navHome"
                 style={{ color: "black" }}
                 onClick={handleClick}
               >
