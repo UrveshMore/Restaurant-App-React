@@ -45,8 +45,11 @@
     box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.368);
     transition: .2s;
 }
-.active{
-    color: red;
+.navHome:hover{
+    background-color: rgba(239, 110, 30, 0.374);
+    border-radius: 20px;
+    
+
 }
 
 
@@ -118,13 +121,14 @@
       }
       
   }
-  .aa{
-    color: red;
+  .order{
+   border-radius: 20px;
+  }
+  .order:hover{
+    background-color: rgba(59, 59, 59, 0.333);
+   
   }
 
-  .navCart{
-    background-color: rgba(244, 135, 11, 0.566);
-  }
-  .navCartMenu{
-    background-color: rgba(224, 224, 224, 0.258);
+  .nav-link{
+    color: black;
   }

@@ -3,14 +3,13 @@ import "./style.css";
 import { Table } from "react-bootstrap";
 import { useNavigate, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-
-import { Link } from "react-router-dom";
-import Badge from "react-bootstrap/Badge";
+import { MdArrowBackIosNew } from "react-icons/md";
 import {
   ADD_DATA,
   DELETE,
   REMOVE,
 } from "../../React-redux/Menu-actions/menuaction";
+import Navbar from "../Navbar";
 const MenuDetails = () => {
   const [data, setData] = useState([]);
   const { id } = useParams();
@@ -25,6 +24,9 @@ const MenuDetails = () => {
   // remove item from cart
   const dlt = (id) => {
     dispatch(DELETE(id));
+    history("/menu");
+  };
+  const backToMenu = () => {
     history("/menu");
   };
   const compare = () => {
@@ -42,67 +44,14 @@ const MenuDetails = () => {
 
   return (
     <div className="cart_details">
-      <nav
-        className="navbar navbar-expand-lg navbar-dark bg-success position-sticky"
-        style={{
-          boxShadow: "0px 10px 20px black",
-          filter: "blur(20)",
-          position: "fixed",
-          zIndex: "10",
-          width: "100%",
-        }}
-      >
-        <div className="container-fluid">
-          <Link className="navbar-brand fs-1 fst-italic" to="/">
-            GoFood<span>🍕</span>
-            {"  "}
-          </Link>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <Link
-                  className="nav-link fs-5 mx-3 active"
-                  aria-current="page"
-                  to="/"
-                >
-                  Home
-                </Link>{" "}
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link fs-5 mx-3 active"
-                  aria-current="page"
-                  to="/menu"
-                >
-                  menu
-                </Link>{" "}
-              </li>
-            </ul>
-            <div>
-              <div className="btn bg-white text-success mx-2 ">
-                My Cart {""}
-                <Badge pill bg="danger" id="basic-button">
-                  {getdata.length}
-                </Badge>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
-      <div className="container mt-2">
-        <h2 className="text-center">Food Details Page</h2>
+      <Navbar></Navbar>
 
+      <div className="container mt-2">
+        <button className="order mt-5 px-3 mx-5" onClick={backToMenu}>
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <h2 className="text-center">Food Details Page</h2>
+        <br />
         <section className="container mt-3">
           <div className="iteamsdetails">
             <>
@@ -165,7 +114,8 @@ const MenuDetails = () => {
                                 }}
                               >
                                 <span
-                                  style={{ fontSize: 24 }}
+                                  className="px-2"
+                                  style={{ fontSize: 24, border: "solid" }}
                                   onClick={
                                     ele.qnty <= 1
                                       ? () => dlt(ele.id)
@@ -176,7 +126,8 @@ const MenuDetails = () => {
                                 </span>
                                 <span style={{ fontSize: 22 }}>{ele.qnty}</span>
                                 <span
-                                  style={{ fontSize: 24 }}
+                                  className="px-2"
+                                  style={{ fontSize: 24, border: "solid" }}
                                   onClick={() => send(ele)}
                                 >
                                   +

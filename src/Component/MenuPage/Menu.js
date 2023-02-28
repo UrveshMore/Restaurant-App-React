@@ -56,30 +56,65 @@ const Menu = () => {
             })
             .map((eve, index) => {
               return (
-                <Card
-                  style={{ width: "22rem", border: "none" }}
-                  className="mb-4 hove"
-                  key={index}
-                >
-                  <Card.Img variant="top" src={eve.img} className="cd" />
-
-                  <div className="card_body my-2">
-                    <div className="upper_data d-flex justify-content-between align-item-center">
-                      <h4 className="mx-1" style={{ fontSize: 22 }}>
-                        {eve.title}
-                      </h4>
-                      <h5 className="mx-1">₹ {eve.price}/-</h5>
+                <div className="col-sm-6 col-md-6 col-lg-6">
+                  <div className="food-card food-card--vertical">
+                    <div className="food-card_img">
+                      <img src={eve.img} alt="" />
+                      <a href="#!">
+                        <i className="fa fa-heart"></i>
+                      </a>
                     </div>
-                    <div className="text-center ">
-                      <button
-                        className="btn btn-warning mx-5"
-                        onClick={() => send(eve)}
-                      >
-                        Add to Cart
-                      </button>
+                    <div className="food-card_content">
+                      <div className="food-card_title-section">
+                        <span className="food-card_title d-flex">
+                          {eve.title}
+                        </span>{" "}
+                        <span
+                          className="mx-2 "
+                          style={{
+                            background: "green",
+                            color: "#fff",
+                            padding: "2px 5px",
+                            borderRadius: "5px",
+                          }}
+                        >
+                          {eve.rating} ★
+                        </span>
+                      </div>
+
+                      <div className="food-card_bottom-section">
+                        <div className="space-between">
+                          <div>
+                            <span className="fa fa-fire"></span> {eve.cal} Kcal
+                          </div>
+                          <div className="pull-right">
+                            <span className="badge badge-success">Veg</span>
+                          </div>
+                        </div>
+                        <hr />
+                        <div className="space-between">
+                          <div className="food-card_price">
+                            <span>₹{eve.price}/-</span>
+                          </div>
+                          <div className="food-card_order-count">
+                            <div className="input-group mb-3 mx-5">
+                              <div className="input-group-prepend">
+                                <button
+                                  className="btn btn-outline-secondary minus-btn"
+                                  type="button"
+                                  id="button-addon1"
+                                  onClick={() => send(eve)}
+                                >
+                                  Add to cart
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </Card>
+                </div>
               );
             })}
         </div>

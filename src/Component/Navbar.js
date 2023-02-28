@@ -54,7 +54,11 @@ export default function Navbar(props) {
         }}
       >
         <div className="container-fluid">
-          <Link className="navbar-brand fs-1 fst-italic" to="/">
+          <Link
+            className="navbar-brand fs-1 fst-italic"
+            style={{ color: "black" }}
+            to="/"
+          >
             GoFood<span>🍕</span>
             {"  "}
           </Link>
@@ -71,19 +75,21 @@ export default function Navbar(props) {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
+              <li className="nav-item navHome ">
                 <Link
                   className="nav-link fs-5 mx-3 active"
                   aria-current="page"
+                  style={{ color: "black" }}
                   to="/"
                 >
-                  Home
+                  <strong>Home</strong>
                 </Link>{" "}
               </li>
             </ul>
             <div>
               <div
-                className="btn bg-white text-success mx-2 "
+                className="btn bg-white mx-2 "
+                style={{ color: "black" }}
                 onClick={handleClick}
               >
                 My Cart {""}
@@ -172,10 +178,7 @@ export default function Navbar(props) {
                       <p className="text-center">Total :₹ {price}</p>
                     </tbody>
                     <div className="text-center ">
-                      <button
-                        className="order bg bg-warning mx-5"
-                        onClick={handleOrder}
-                      >
+                      <button className="order mx-3" onClick={handleOrder}>
                         Place Order
                       </button>
                     </div>

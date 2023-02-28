@@ -28,6 +28,7 @@ function App() {
               path="/menuDetails/:id"
               element={<MenuDetails></MenuDetails>}
             />
+
             <Route path="*" element={<Error></Error>} />
           </Routes>
         </div>
