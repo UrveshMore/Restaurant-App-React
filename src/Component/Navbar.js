@@ -9,7 +9,7 @@ import { DELETE } from "../React-redux/Menu-actions/menuaction";
 
 export default function Navbar(props) {
   const [price, setPrice] = useState(0);
-  const getdata = useSelector((state) => state.cartreducer.carts);
+  const getdata = useSelector((state) => state.cart.carts);
   const history = useNavigate();
   const dispatch = useDispatch();
   const dlt = (id) => {
@@ -37,6 +37,7 @@ export default function Navbar(props) {
   useEffect(() => {
     total();
   }, [total]);
+
   const handleOrder = () => {
     history("/");
     alert("Your order placed successfully");

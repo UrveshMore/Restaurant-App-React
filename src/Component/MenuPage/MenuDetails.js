@@ -3,17 +3,17 @@ import "./style.css";
 import { Table } from "react-bootstrap";
 import { useNavigate, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { MdArrowBackIosNew } from "react-icons/md";
+
 import {
   ADD_DATA,
   DELETE,
-  REMOVE,
+  REMOVE_DATA,
 } from "../../React-redux/Menu-actions/menuaction";
 import Navbar from "../Navbar";
 const MenuDetails = () => {
   const [data, setData] = useState([]);
   const { id } = useParams();
-  const getdata = useSelector((state) => state.cartreducer.carts);
+  const getdata = useSelector((state) => state.cart.carts);
   const history = useNavigate();
   const dispatch = useDispatch();
   //send data to the cart
@@ -24,11 +24,9 @@ const MenuDetails = () => {
   // remove item from cart
   const dlt = (id) => {
     dispatch(DELETE(id));
-    history("/menu");
+    history("/menu/:id");
   };
-  const backToMenu = () => {
-    history("/menu");
-  };
+
   const compare = () => {
     let comparedata = getdata.filter((e) => {
       return e.id == id;
@@ -39,7 +37,7 @@ const MenuDetails = () => {
     compare();
   }, [id]);
   const remove = (item) => {
-    dispatch(REMOVE(item));
+    dispatch(REMOVE_DATA(item));
   };
 
   return (
@@ -47,9 +45,6 @@ const MenuDetails = () => {
       <Navbar></Navbar>
 
       <div className="container mt-2">
-        <button className="order mt-5 px-3 mx-5" onClick={backToMenu}>
-          <i class="fa-solid fa-arrow-left"></i>
-        </button>
         <h2 className="text-center">Food Details Page</h2>
         <br />
         <section className="container mt-3">

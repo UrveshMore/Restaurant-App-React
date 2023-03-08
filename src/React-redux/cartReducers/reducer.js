@@ -1,10 +1,12 @@
+import { ADD, REMOVE, RMV_CART } from "../Menu-actions/actionType";
+
 const INIT_STATE = {
   carts: [],
 };
 
 export const cartreducer = (state = INIT_STATE, action) => {
   switch (action.type) {
-    case "ADD":
+    case ADD:
       const IteamIndex = state.carts.findIndex(
         (iteam) => iteam.id === action.payload.id
       );
@@ -23,7 +25,7 @@ export const cartreducer = (state = INIT_STATE, action) => {
         };
       }
 
-    case "RMV_CART":
+    case RMV_CART:
       const data = state.carts.filter((el) => el.id !== action.payload);
 
       return {
@@ -31,7 +33,7 @@ export const cartreducer = (state = INIT_STATE, action) => {
         carts: data,
       };
 
-    case "RMV":
+    case REMOVE:
       const IteamIndex_dec = state.carts.findIndex(
         (iteam) => iteam.id === action.payload.id
       );

@@ -2,8 +2,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Navbar from "./Navbar";
 import "./style.css";
 import React, { Component } from "react";
-
-import Cards from "./Home-Page/Cards";
+import Restaurants from "./Home-Page/Restaurants";
 
 class Home extends Component {
   render() {
@@ -37,7 +36,7 @@ class Home extends Component {
             <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-        <Cards></Cards>
+        <Restaurants></Restaurants>
       </>
     );
   }

@@ -12,9 +12,9 @@ export const ADD_DATA = (item) => {
   };
 };
 
-export const REMOVE = (iteam) => {
+export const REMOVE_DATA = (iteam) => {
   return {
-    type: "RMV",
+    type: "REMOVE",
     payload: iteam,
   };
 };
