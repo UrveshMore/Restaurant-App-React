@@ -1,15 +1,18 @@
 import React, { useEffect, useState } from "react";
-import { connect } from "react-redux";
-import { fetchUsers } from "../../React-redux";
+import { connect, useDispatch, useSelector } from "react-redux";
+import { fetchRest, searchRest } from "../../React-redux";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
-import { restaurant, restSelector } from "./selectors";
+import { restaurantSelector, restSelector } from "./selectors";
 
-function Restaurants({ restaurantData, fetchUsers }) {
+function Restaurants({ restaurantData, fetchRest }) {
   const [search, setSearch] = useState([]);
+  const searchResult = useSelector((state) => state.restaurant.search);
 
+  const dispatch = useDispatch();
   useEffect(() => {
-    fetchUsers();
+    fetchRest();
+    searchRest();
   }, []);
 
   return restaurantData.loading ? (
@@ -22,6 +25,7 @@ function Restaurants({ restaurantData, fetchUsers }) {
         <h2 className="px-4" style={{ fontWeight: 400, fontSize: 60 }}>
           Restaurant In Pune
         </h2>
+
         <div>
           <input
             type="text"
@@ -30,8 +34,16 @@ function Restaurants({ restaurantData, fetchUsers }) {
               setSearch(event.target.value);
             }}
           />
+          {/* <input
+            type="text"
+            placeholder="Search...."
+            onChange={(event) => {
+              dispatch(searchRest(event.target.value));
+            }}
+          /> */}
         </div>
-        <div className="row mt-2 d-flex justify-content-between align-item-center">
+        <br />
+        <div className="row mt-2 d-flex justify-content-between align-item-center ">
           {restaurantData
             .filter((val) => {
               if (search == "") {
@@ -80,15 +92,15 @@ function Restaurants({ restaurantData, fetchUsers }) {
 
 const mapStateToProps = (state) => {
   return {
-    restaurantData: restSelector(state),
-    restaurantDa: restaurant(state),
+    restaurantData: state.restaurant.restaurants,
     searches: state.restaurant.search,
+    // restaurantDa: restaurantSelector(state),
   };
 };
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    fetchUsers: () => dispatch(fetchUsers()),
+    fetchRest: () => dispatch(fetchRest()),
   };
 };
 

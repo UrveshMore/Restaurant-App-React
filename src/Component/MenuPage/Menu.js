@@ -1,30 +1,18 @@
-import axios from "axios";
-import "./style.css";
 import React, { useState, useEffect } from "react";
+import "./style.css";
 import Navbar from "../Navbar";
 import { useDispatch } from "react-redux";
 import { ADD_DATA } from "../../React-redux/Menu-actions/menuaction";
-import { useNavigate, useParams } from "react-router-dom";
-import { connect, useSelector } from "react-redux";
+import { useParams } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const Menu = () => {
-  const [menuData, setMenuData] = useState([]);
   const [mdata, setMData] = useState([]);
   const [search, setSearch] = useState("");
   const { id } = useParams();
   const getdata = useSelector((state) => state.restaurant.restaurants);
   //fetch food menu from api
-  const fetchData = () => {
-    axios
-      .get("http://localhost:3003/menu")
-      .then((res) => {
-        setMenuData(res.data);
-      })
-      .catch((err) => alert(err));
-  };
-  useEffect(() => {
-    fetchData();
-  }, []);
+
   const compare = () => {
     let comparedata = getdata.filter((e) => {
       return e.id == id;
@@ -34,9 +22,7 @@ const Menu = () => {
   useEffect(() => {
     compare();
   }, [id]);
-  const foodList = mdata.map((event) => {
-    return event.foodList;
-  });
+
   //send data to cart
   const dispatch = useDispatch();
   const send = (e) => {
@@ -72,15 +58,14 @@ const Menu = () => {
                       return val;
                     }
                   })
-                  .map((eve) => {
+                  .map((eve, index) => {
                     return (
-                      <div className="col-sm-6 col-md-6 col-lg-6">
+                      <div className="col-sm-6 col-md-6 col-lg-6" key={index}>
                         <div className="food-card food-card--vertical">
                           <div className="food-card_img">
                             <img src={eve.img} alt="" />
-                            <a href="#!">
-                              <i className="fa fa-heart"></i>
-                            </a>
+
+                            <i className="fa fa-heart"></i>
                           </div>
                           <div className="food-card_content">
                             <div className="food-card_title-section">

@@ -12,7 +12,7 @@ const initialState = {
   search: "",
 };
 
-const userReducer = (state = initialState, action) => {
+const restReducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_USERS_REQUEST:
       return {
@@ -41,4 +41,4 @@ const userReducer = (state = initialState, action) => {
   }
 };
 
-export default userReducer;
+export default restReducer;

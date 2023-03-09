@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 import "./style.css";
 import { DELETE } from "../React-redux/Menu-actions/menuaction";
 
-export default function Navbar(props) {
+export default function Navbar() {
   const [price, setPrice] = useState(0);
   const getdata = useSelector((state) => state.cart.carts);
   const history = useNavigate();

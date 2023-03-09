@@ -6,22 +6,22 @@ import {
   SEARCH,
 } from "./Types";
 
-export const fetchUsers = () => {
+export const fetchRest = () => {
   return (dispatch) => {
-    dispatch(fetchUsersRequest());
+    dispatch(fetchRestRequest());
     axios
       .get("http://localhost:3003/restaurant")
       .then((response) => {
         const restaurants = response.data;
-        dispatch(fetchUsersSuccess(restaurants));
+        dispatch(fetchRestSuccess(restaurants));
       })
       .catch((error) => {
-        dispatch(fetchUsersFailure(error.message));
+        dispatch(fetchRestFailure(error.message));
       });
   };
 };
 
-export const fetchUsersRequest = () => {
+export const fetchRestRequest = () => {
   return {
     type: FETCH_USERS_REQUEST,
   };
@@ -33,14 +33,14 @@ export const searchRest = (search) => {
     payload: search,
   };
 };
-export const fetchUsersSuccess = (restaurants) => {
+export const fetchRestSuccess = (restaurants) => {
   return {
     type: FETCH_USERS_SUCCESS,
     payload: restaurants,
   };
 };
 
-export const fetchUsersFailure = (error) => {
+export const fetchRestFailure = (error) => {
   return {
     type: FETCH_USERS_FAILURE,
     payload: error,
