@@ -3,11 +3,17 @@ import { connect, useDispatch, useSelector } from "react-redux";
 import { fetchRest, searchRest } from "../../React-redux";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
-import { restaurantSelector, restSelector } from "./selectors";
+import { restaurantSelector } from "./selectors";
 
-function Restaurants({ restaurantData, fetchRest }) {
+// import { restaurantSelector, restSelector } from "./selectors";
+
+function Restaurants({
+  restaurantData,
+  restaurantDa,
+  fetchRest,
+  restaurantSelector,
+}) {
   const [search, setSearch] = useState([]);
-  const searchResult = useSelector((state) => state.restaurant.search);
 
   const dispatch = useDispatch();
   useEffect(() => {
@@ -44,46 +50,48 @@ function Restaurants({ restaurantData, fetchRest }) {
         </div>
         <br />
         <div className="row mt-2 d-flex justify-content-between align-item-center ">
-          {restaurantData
-            .filter((val) => {
-              if (search == "") {
-                return val;
-              } else if (
-                val.rname.toLowerCase().includes(search.toLowerCase())
-              ) {
-                return val;
-              }
-            })
-            .map((event, index) => {
-              return (
-                <Card
-                  style={{ width: "22rem", border: "none" }}
-                  className="mb-4 hove "
-                  key={index}
-                >
-                  <Link to={`/menu/${event.id}`}>
-                    <Card.Img
-                      variant="top"
-                      src={event.imgdata}
-                      className="cd"
-                    />
+          {restaurantData.map((eve) => {
+            return eve
+              .filter((val) => {
+                if (search == "") {
+                  return val;
+                } else if (
+                  val.rname.toLowerCase().includes(search.toLowerCase())
+                ) {
+                  return val;
+                }
+              })
+              .map((event, index) => {
+                return (
+                  <Card
+                    style={{ width: "22rem", border: "none" }}
+                    className="mb-4 hove "
+                    key={index}
+                  >
+                    <Link to={`/menu/${event._id}`}>
+                      <Card.Img
+                        variant="top"
+                        src={event.imgdata}
+                        className="cd"
+                      />
 
-                    <div className="card_body my-1">
-                      <div className="upper_data d-flex justify-content-between align-item-center">
-                        <h4 className="mt">{event.rname}</h4>
-                        <span>{event.rating}&nbsp;★</span>
+                      <div className="card_body my-1">
+                        <div className="upper_data d-flex justify-content-between align-item-center">
+                          <h4 className="mt">{event.rname}</h4>
+                          <span>{event.rating}&nbsp;★</span>
+                        </div>
+                        <div className="lower_data d-flex justify-content-between align-item-center">
+                          <h5>{event.address}</h5>
+                          <span> {event.price}</span>
+                        </div>
+                        <div className="extra"></div>
+                        <br />
                       </div>
-                      <div className="lower_data d-flex justify-content-between align-item-center">
-                        <h5>{event.address}</h5>
-                        <span> {event.price}</span>
-                      </div>
-                      <div className="extra"></div>
-                      <br />
-                    </div>
-                  </Link>
-                </Card>
-              );
-            })}
+                    </Link>
+                  </Card>
+                );
+              });
+          })}
         </div>
       </section>
     </div>

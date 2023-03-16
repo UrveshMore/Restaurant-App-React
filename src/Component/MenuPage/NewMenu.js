@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Navbar from "./Navbar";
 import { useCart, useDispatchCart } from "./ContextReducer";
 import "./style.css";
+
 function Card0() {
   const [restaurantList, setRestaurantList] = useState([]);
   const [foodList, setFoodList] = useState([]);
@@ -12,6 +13,7 @@ function Card0() {
   const [qty, setQty] = useState(1);
 
   const loadData = async () => {
+
     let response = await fetch(
       "http://localhost:3001/restaurantList/restaurants",
       {

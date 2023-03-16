@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import "./style.css";
 import React, { Component } from "react";
 import Restaurants from "./Home-Page/Restaurants";
+import Footer from "./Footer";
 
 class Home extends Component {
   render() {
@@ -37,6 +38,7 @@ class Home extends Component {
           </Carousel.Item>
         </Carousel>
         <Restaurants></Restaurants>
+        <Footer></Footer>
       </>
     );
   }
