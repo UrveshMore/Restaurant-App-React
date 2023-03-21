@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
-import Navbar from "../Navbar";
-import { connect, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import { ADD_DATA } from "../../React-redux/Menu-actions/menuaction";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
-import Footer from "../Footer";
+import Navbar from "../Header/Navbar";
+import Footer from "../Footer/Footer";
 
 const Menu = () => {
   const [mdata, setMData] = useState([]);
@@ -38,6 +38,7 @@ const Menu = () => {
     <>
       <Navbar></Navbar>
       <br />
+
       <div className="text-center">
         <input
           type="text"
@@ -138,17 +139,5 @@ const Menu = () => {
     </>
   );
 };
-// const mapStateToProps = (state) => {
-//   return {
-//     restaurantData: state.restaurant.restaurants,
-//     searches: state.restaurant.search,
-//     // restaurantDa: restaurantSelector(state),
-//   };
-// };
 
-// const mapDispatchToProps = (dispatch) => {
-//   return {
-//     fetchRest: () => dispatch(fetchRest()),
-//   };
-// };
 export default Menu;

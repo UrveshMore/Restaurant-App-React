@@ -1,9 +1,10 @@
 import Carousel from "react-bootstrap/Carousel";
-import Navbar from "./Navbar";
+
 import "./style.css";
 import React, { Component } from "react";
-import Restaurants from "./Home-Page/Restaurants";
-import Footer from "./Footer";
+import Restaurants from "./Restaurants";
+import Footer from "../Footer/Footer";
+import Navbar from "../Header/Navbar";
 
 class Home extends Component {
   render() {
@@ -17,7 +18,7 @@ class Home extends Component {
               src="images/simg01.jpg"
               alt="First slide"
             />
-            <Carousel.Caption></Carousel.Caption>
+            <Carousel.Caption>Hello</Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={500}>
             <img
@@ -25,7 +26,7 @@ class Home extends Component {
               src="images/simg02.jpg"
               alt="Second slide"
             />
-            <Carousel.Caption></Carousel.Caption>
+            <Carousel.Caption>Hello</Carousel.Caption>
           </Carousel.Item>
 
           <Carousel.Item>

@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Badge from "react-bootstrap/Badge";
 import Menu from "@mui/material/Menu";
-import Table from "react-bootstrap/esm/Table";
+import { Table } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
-import "./style.css";
-import { DELETE } from "../React-redux/Menu-actions/menuaction";
+import "../style.css";
+import { DELETE } from "../../React-redux/Menu-actions/menuaction";
 
 export default function Navbar() {
   const [price, setPrice] = useState(0);

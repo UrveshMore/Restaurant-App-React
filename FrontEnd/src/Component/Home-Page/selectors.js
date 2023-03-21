@@ -13,12 +13,6 @@ export const restaurantSelector = createSelector(
         return val;
       }
     });
-    // return rest.filter((val) => {
-    //   if (search == "") {
-    //     return val;
-    //   } else if (val.rname.toLowerCase().includes(search.toLowerCase())) {
-    //     return val;
-    //   }
-    // });
+  
   }
 );

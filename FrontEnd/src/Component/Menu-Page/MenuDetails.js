@@ -9,7 +9,8 @@ import {
   DELETE,
   REMOVE_DATA,
 } from "../../React-redux/Menu-actions/menuaction";
-import Navbar from "../Navbar";
+import Navbar from "../Header/Navbar";
+
 const MenuDetails = () => {
   const [data, setData] = useState([]);
   const { id } = useParams();

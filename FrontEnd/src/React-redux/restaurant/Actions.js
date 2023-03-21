@@ -1,4 +1,3 @@
-import axios from "axios";
 import {
   FETCH_USERS_REQUEST,
   FETCH_USERS_SUCCESS,
@@ -6,6 +5,7 @@ import {
   SEARCH,
 } from "./Types";
 
+import axios from "axios";
 // export const fetchRest = () => {
 //   return (dispatch) => {
 //     dispatch(fetchRestRequest());
@@ -41,17 +41,7 @@ export const fetchRest = () => {
       });
   };
 };
-const loadData = () => {
-  axios
-    .post("http://localhost:3001/restaurantList/restaurants", {
-      headers: {
-        "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
-      },
-    })
-    .then((response) => console.log("main data", response.data));
-};
+
 export const fetchRestRequest = () => {
   return {
     type: FETCH_USERS_REQUEST,

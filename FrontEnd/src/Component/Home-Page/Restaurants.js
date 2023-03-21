@@ -1,21 +1,18 @@
 import React, { useEffect, useState } from "react";
-import { connect, useDispatch, useSelector } from "react-redux";
+import { connect } from "react-redux";
 import { fetchRest, searchRest } from "../../React-redux";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
-import { restaurantSelector } from "./selectors";
 
 // import { restaurantSelector, restSelector } from "./selectors";
 
 function Restaurants({
   restaurantData,
-  restaurantDa,
+
   fetchRest,
-  restaurantSelector,
 }) {
   const [search, setSearch] = useState([]);
 
-  const dispatch = useDispatch();
   useEffect(() => {
     fetchRest();
     searchRest();
