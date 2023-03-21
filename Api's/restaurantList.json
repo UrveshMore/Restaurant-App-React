@@ -1,0 +1,1228 @@
+[
+  {
+    "id": "A101",
+    "rname": "Burger king",
+    "imgdata": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+    "address": "Burger, American",
+    "delimg": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+    "somedata": " 1175 + order placed from here recently",
+    "price": "₹250 for one",
+    "rating": "4.2",
+    "foodList": [
+      {
+        "id": 1,
+        "title": "Grill Sandwich",
+        "price": 120,
+        "rating": "4.3",
+        "qnty": 0,
+        "cal": "180-220",
+        "img": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80"
+      },
+      {
+        "id": 2,
+        "title": "Fiery Chicken Burger",
+        "price": 180,
+        "rating": "4.1",
+        "qnty": 0,
+        "cal": "200-280",
+        "img": "https://images.unsplash.com/photo-1565299507177-b0ac66763828?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 3,
+        "title": "Crispy Veg Burger",
+        "price": 140,
+        "rating": "3.9",
+        "cal": "200-260",
+        "qnty": 0,
+        "img": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 4,
+        "title": "Crispy Chicken Burger",
+        "price": 165,
+        "cal": "180-230",
+        "qnty": 0,
+        "rating": "4.0",
+        "img": "https://images.unsplash.com/photo-1635685296916-95acaf58471f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNoaW5lc2UlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 5,
+        "title": "Chicken Whopper",
+        "price": 180,
+        "qnty": 0,
+        "cal": "220-260",
+        "rating": "4.0",
+        "img": "https://images.unsplash.com/photo-1550547660-d9450f859349?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 6,
+        "title": "Chicken Double Patty",
+        "price": 195,
+        "qnty": 0,
+        "cal": "160-200",
+        "rating": "3.8",
+        "img": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJ1cmdlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 7,
+        "title": "Egg Roll",
+        "price": 80,
+        "qnty": 0,
+        "cal": "220-280",
+        "rating": "4.3",
+        "img": "https://images.unsplash.com/photo-1582454235987-1e597bafcf58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHJvbGxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 8,
+        "title": "Chiken Roll",
+        "price": 160,
+        "rating": "4.1",
+        "qnty": 0,
+        "cal": "240-280",
+        "img": "https://images.unsplash.com/photo-1594020292985-216a72a2c7ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJvbGxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 10,
+        "title": "King Fries",
+        "price": 165,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "180-220",
+        "img": "https://plus.unsplash.com/premium_photo-1673809798838-29e8e9033389?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGJ1cmdlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      }
+    ],
+    "arrimg": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp"
+  },
+  {
+    "id": "A102",
+    "rname": "Momos point",
+    "imgdata": "https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "address": "Street Food",
+    "delimg": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+    "somedata": " 2525 + order placed from here recently",
+    "price": "₹150 for one",
+    "rating": "3.9",
+    "foodList": [
+      {
+        "id": 1,
+        "title": "Egg Roll",
+        "price": 80,
+        "qnty": 0,
+        "cal": "220-280",
+        "rating": "4.3",
+        "img": "https://images.unsplash.com/photo-1582454235987-1e597bafcf58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHJvbGxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 2,
+        "title": "Chiken Roll",
+        "price": 160,
+        "rating": "4.1",
+        "qnty": 0,
+        "cal": "240-280",
+        "img": "https://images.unsplash.com/photo-1594020292985-216a72a2c7ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJvbGxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 3,
+        "title": "Masala Dosa",
+        "price": 165,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "180-220",
+        "img": "https://images.unsplash.com/photo-1643268972535-a2b100ff3632?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWFzYWxhJTIwZG9zYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 4,
+        "title": "Idli",
+        "price": 80,
+        "rating": "4.2",
+        "qnty": 0,
+        "cal": "160-200",
+        "img": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aWRsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 5,
+        "title": "MenduVada",
+        "price": 110,
+        "qnty": 0,
+        "rating": "4.1",
+        "cal": "190-220",
+        "img": "https://images.unsplash.com/photo-1630383249896-424e482df921?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aWRsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 6,
+        "title": "Cheese Pizza",
+        "price": 220,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "200-260",
+        "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 7,
+        "title": "Tomato Cheese Pizza",
+        "price": 150,
+        "qnty": 0,
+        "rating": "4.1",
+        "cal": "200-280",
+        "img": "https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 8,
+        "title": "Corn Cheese Pizza",
+        "price": 240,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "180-220",
+        "img": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 9,
+        "title": "Spicy Paneer Pizza",
+        "price": 245,
+        "qnty": 0,
+        "rating": "3.8",
+        "cal": "200-240",
+        "img": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      }
+    ],
+    "arrimg": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp"
+  },
+  {
+    "id": "A103",
+    "rname": "Sai chinese",
+    "imgdata": "https://images.unsplash.com/photo-1585032226651-759b368d7246?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=692&q=80",
+    "address": "Chinese",
+    "delimg": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+    "somedata": " 650 + order placed from here recently",
+    "price": "₹200 for one",
+    "rating": "3.9",
+    "foodList": [
+      {
+        "id": 3,
+        "title": "Soyabean Chilli",
+        "rname": "Sai chinese",
+        "category": "breakfast",
+        "price": 120,
+        "rating": "3.9",
+        "cal": "200-260",
+        "img": "https://images.unsplash.com/photo-1623689046286-01d812cc8bad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNoaW5lc2UlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 4,
+        "title": "Veg Noodles",
+        "price": 125,
+        "cal": "180-230",
+        "qnty": 0,
+        "rating": "4.0",
+        "img": "https://images.unsplash.com/photo-1635685296916-95acaf58471f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNoaW5lc2UlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 5,
+        "title": "Singapore Noodles",
+        "price": 140,
+        "qnty": 0,
+        "cal": "220-260",
+        "rating": "4.0",
+        "img": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNoaW5lc2UlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 6,
+        "title": "Tomato Soup",
+        "price": 195,
+        "qnty": 0,
+        "cal": "160-200",
+        "rating": "3.8",
+        "img": "https://images.unsplash.com/photo-1621608953630-00d9eb860392?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dG90b2F0byUyMHNvdXB8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 7,
+        "title": "Egg Roll",
+        "price": 80,
+        "qnty": 0,
+        "cal": "220-280",
+        "rating": "4.3",
+        "img": "https://images.unsplash.com/photo-1582454235987-1e597bafcf58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHJvbGxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 8,
+        "title": "Chiken Roll",
+        "price": 160,
+        "rating": "4.1",
+        "qnty": 0,
+        "cal": "240-280",
+        "img": "https://images.unsplash.com/photo-1594020292985-216a72a2c7ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJvbGxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 9,
+        "title": "Masala Dosa",
+        "price": 165,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "180-220",
+        "img": "https://images.unsplash.com/photo-1643268972535-a2b100ff3632?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWFzYWxhJTIwZG9zYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 11,
+        "title": "Idli",
+        "price": 80,
+        "rating": "4.2",
+        "qnty": 0,
+        "cal": "160-200",
+        "img": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aWRsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 12,
+        "title": "MenduVada",
+        "price": 110,
+        "qnty": 0,
+        "rating": "4.1",
+        "cal": "190-220",
+        "img": "https://images.unsplash.com/photo-1630383249896-424e482df921?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aWRsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 13,
+        "title": "Cheese Pizza",
+        "price": 220,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "200-260",
+        "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 14,
+        "title": "Tomato Cheese Pizza",
+        "price": 150,
+        "qnty": 0,
+        "rating": "4.1",
+        "cal": "200-280",
+        "img": "https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      }
+    ],
+    "arrimg": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp"
+  },
+  {
+    "id": "A104",
+    "rname": "Shamsundar Misal",
+    "imgdata": "https://images.unsplash.com/photo-1598233847491-f16487adee2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWlzYWx8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+    "address": "Maharashtrian,Fast Food",
+    "delimg": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+    "somedata": " 300 + order placed from here recently",
+    "price": "₹150 for one",
+    "rating": "3.8",
+    "foodList": [
+      {
+        "id": 1,
+        "title": "Grill Sandwich",
+        "price": 120,
+        "rating": "4.3",
+        "qnty": 0,
+        "cal": "180-220",
+        "img": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2FuZHdpY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 2,
+        "title": "Misal",
+        "price": 180,
+        "rating": "4.1",
+        "qnty": 0,
+        "cal": "200-280",
+        "img": "https://images.unsplash.com/photo-1619193100179-af4cc742ed3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWlzYWwlMjBwYXZ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 3,
+        "title": "Soyabean Chilli",
+        "rname": "Sai chinese",
+        "category": "breakfast",
+        "price": 120,
+        "rating": "3.9",
+        "cal": "200-260",
+        "img": "https://images.unsplash.com/photo-1623689046286-01d812cc8bad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNoaW5lc2UlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 4,
+        "title": "Veg Noodles",
+        "price": 125,
+        "cal": "180-230",
+        "qnty": 0,
+        "rating": "4.0",
+        "img": "https://images.unsplash.com/photo-1635685296916-95acaf58471f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNoaW5lc2UlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 5,
+        "title": "Singapore Noodles",
+        "price": 140,
+        "qnty": 0,
+        "cal": "220-260",
+        "rating": "4.0",
+        "img": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNoaW5lc2UlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 6,
+        "title": "Tomato Soup",
+        "price": 195,
+        "qnty": 0,
+        "cal": "160-200",
+        "rating": "3.8",
+        "img": "https://images.unsplash.com/photo-1621608953630-00d9eb860392?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dG90b2F0byUyMHNvdXB8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 7,
+        "title": "Egg Roll",
+        "price": 80,
+        "qnty": 0,
+        "cal": "220-280",
+        "rating": "4.3",
+        "img": "https://images.unsplash.com/photo-1582454235987-1e597bafcf58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHJvbGxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 8,
+        "title": "Chiken Roll",
+        "price": 160,
+        "rating": "4.1",
+        "qnty": 0,
+        "cal": "240-280",
+        "img": "https://images.unsplash.com/photo-1594020292985-216a72a2c7ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJvbGxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 9,
+        "title": "Masala Dosa",
+        "price": 165,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "180-220",
+        "img": "https://images.unsplash.com/photo-1643268972535-a2b100ff3632?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWFzYWxhJTIwZG9zYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 11,
+        "title": "Idli",
+        "price": 80,
+        "rating": "4.2",
+        "qnty": 0,
+        "cal": "160-200",
+        "img": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aWRsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 12,
+        "title": "MenduVada",
+        "price": 110,
+        "qnty": 0,
+        "rating": "4.1",
+        "cal": "190-220",
+        "img": "https://images.unsplash.com/photo-1630383249896-424e482df921?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aWRsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 13,
+        "title": "Cheese Pizza",
+        "price": 220,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "200-260",
+        "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 14,
+        "title": "Tomato Cheese Pizza",
+        "price": 150,
+        "qnty": 0,
+        "rating": "4.1",
+        "cal": "200-280",
+        "img": "https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 15,
+        "title": "Corn Cheese Pizza",
+        "price": 240,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "180-220",
+        "img": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 16,
+        "title": "Spicy Paneer Pizza",
+        "price": 245,
+        "qnty": 0,
+        "rating": "3.8",
+        "cal": "200-240",
+        "img": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      }
+    ],
+    "arrimg": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp"
+  },
+  {
+    "id": "A105",
+    "rname": "My Udupi Spice",
+    "imgdata": "https://b.zmtcdn.com/data/pictures/chains/5/110225/3978e28854b7496dbef9496546734811_o2_featured_v2.jpg",
+    "address": "North Indian",
+    "delimg": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+    "somedata": "1050 + order placed from here recently",
+    "price": "₹120 for one",
+    "rating": "4.0",
+    "foodList": [
+      {
+        "id": 5,
+        "title": "Singapore Noodles",
+        "price": 140,
+        "qnty": 0,
+        "cal": "220-260",
+        "rating": "4.0",
+        "img": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNoaW5lc2UlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 6,
+        "title": "Tomato Soup",
+        "price": 195,
+        "qnty": 0,
+        "cal": "160-200",
+        "rating": "3.8",
+        "img": "https://images.unsplash.com/photo-1621608953630-00d9eb860392?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dG90b2F0byUyMHNvdXB8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 7,
+        "title": "Egg Roll",
+        "price": 80,
+        "qnty": 0,
+        "cal": "220-280",
+        "rating": "4.3",
+        "img": "https://images.unsplash.com/photo-1582454235987-1e597bafcf58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHJvbGxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 8,
+        "title": "Chiken Roll",
+        "price": 160,
+        "rating": "4.1",
+        "qnty": 0,
+        "cal": "240-280",
+        "img": "https://images.unsplash.com/photo-1594020292985-216a72a2c7ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJvbGxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 9,
+        "title": "Masala Dosa",
+        "price": 165,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "180-220",
+        "img": "https://images.unsplash.com/photo-1643268972535-a2b100ff3632?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWFzYWxhJTIwZG9zYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 11,
+        "title": "Idli",
+        "price": 80,
+        "rating": "4.2",
+        "qnty": 0,
+        "cal": "160-200",
+        "img": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aWRsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 12,
+        "title": "MenduVada",
+        "price": 110,
+        "qnty": 0,
+        "rating": "4.1",
+        "cal": "190-220",
+        "img": "https://images.unsplash.com/photo-1630383249896-424e482df921?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aWRsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 13,
+        "title": "Cheese Pizza",
+        "price": 220,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "200-260",
+        "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 14,
+        "title": "Tomato Cheese Pizza",
+        "price": 150,
+        "qnty": 0,
+        "rating": "4.1",
+        "cal": "200-280",
+        "img": "https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      }
+    ],
+    "arrimg": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp"
+  },
+  {
+    "id": "A106",
+    "rname": "Chai tapri",
+    "imgdata": "https://images.unsplash.com/photo-1583836632332-53825ce55a03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2hhaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+    "address": "Beverages",
+    "delimg": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+    "somedata": " 1175 + order placed from here recently",
+    "price": "₹60 for one",
+    "rating": "4.1",
+    "foodList": [
+      {
+        "id": 9,
+        "title": "Masala Dosa",
+        "price": 165,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "180-220",
+        "img": "https://images.unsplash.com/photo-1643268972535-a2b100ff3632?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWFzYWxhJTIwZG9zYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 11,
+        "title": "Idli",
+        "price": 80,
+        "rating": "4.2",
+        "qnty": 0,
+        "cal": "160-200",
+        "img": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aWRsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 12,
+        "title": "MenduVada",
+        "price": 110,
+        "qnty": 0,
+        "rating": "4.1",
+        "cal": "190-220",
+        "img": "https://images.unsplash.com/photo-1630383249896-424e482df921?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aWRsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 13,
+        "title": "Cheese Pizza",
+        "price": 220,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "200-260",
+        "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 14,
+        "title": "Tomato Cheese Pizza",
+        "price": 150,
+        "qnty": 0,
+        "rating": "4.1",
+        "cal": "200-280",
+        "img": "https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 15,
+        "title": "Corn Cheese Pizza",
+        "price": 240,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "180-220",
+        "img": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 16,
+        "title": "Spicy Paneer Pizza",
+        "price": 245,
+        "qnty": 0,
+        "rating": "3.8",
+        "cal": "200-240",
+        "img": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      }
+    ],
+    "arrimg": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp"
+  },
+  {
+    "id": "A107",
+    "rname": "Bakers Celebration",
+    "imgdata": "https://images.unsplash.com/photo-1568254183919-78a4f43a2877?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmFrZXJ5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    "address": "Bakery",
+    "delimg": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+    "somedata": " 2525 + order placed from here recently",
+    "price": "₹250 for one",
+    "rating": "3.7",
+    "foodList": [
+      {
+        "id": 11,
+        "title": "Idli",
+        "price": 80,
+        "rating": "4.2",
+        "qnty": 0,
+        "cal": "160-200",
+        "img": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aWRsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 12,
+        "title": "MenduVada",
+        "price": 110,
+        "qnty": 0,
+        "rating": "4.1",
+        "cal": "190-220",
+        "img": "https://images.unsplash.com/photo-1630383249896-424e482df921?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aWRsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 13,
+        "title": "Cheese Pizza",
+        "price": 220,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "200-260",
+        "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 14,
+        "title": "Tomato Cheese Pizza",
+        "price": 150,
+        "qnty": 0,
+        "rating": "4.1",
+        "cal": "200-280",
+        "img": "https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 15,
+        "title": "Corn Cheese Pizza",
+        "price": 240,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "180-220",
+        "img": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 16,
+        "title": "Spicy Paneer Pizza",
+        "price": 245,
+        "qnty": 0,
+        "rating": "3.8",
+        "cal": "200-240",
+        "img": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      }
+    ],
+    "arrimg": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp"
+  },
+  {
+    "id": "A108",
+    "rname": "Bagga Sweets",
+    "imgdata": "https://images.unsplash.com/photo-1662228718998-0a8d0c2ed487?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3dlZXRzJTIwc2hvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+    "address": "Desserts,Sweet,Fast Food",
+    "delimg": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+    "somedata": " 650 + order placed from here recently",
+    "price": "₹150 for one",
+    "rating": "4.3",
+    "foodList": [
+      {
+        "id": 1,
+        "title": "Grill Sandwich",
+        "price": 120,
+        "rating": "4.3",
+        "qnty": 0,
+        "cal": "180-220",
+        "img": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2FuZHdpY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 2,
+        "title": "Misal",
+        "price": 180,
+        "rating": "4.1",
+        "qnty": 0,
+        "cal": "200-280",
+        "img": "https://images.unsplash.com/photo-1619193100179-af4cc742ed3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWlzYWwlMjBwYXZ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 3,
+        "title": "Soyabean Chilli",
+        "rname": "Sai chinese",
+        "category": "breakfast",
+        "price": 120,
+        "rating": "3.9",
+        "cal": "200-260",
+        "img": "https://images.unsplash.com/photo-1623689046286-01d812cc8bad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNoaW5lc2UlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 4,
+        "title": "Veg Noodles",
+        "price": 125,
+        "cal": "180-230",
+        "qnty": 0,
+        "rating": "4.0",
+        "img": "https://images.unsplash.com/photo-1635685296916-95acaf58471f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNoaW5lc2UlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 5,
+        "title": "Singapore Noodles",
+        "price": 140,
+        "qnty": 0,
+        "cal": "220-260",
+        "rating": "4.0",
+        "img": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNoaW5lc2UlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 6,
+        "title": "Tomato Soup",
+        "price": 195,
+        "qnty": 0,
+        "cal": "160-200",
+        "rating": "3.8",
+        "img": "https://images.unsplash.com/photo-1621608953630-00d9eb860392?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dG90b2F0byUyMHNvdXB8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 7,
+        "title": "Egg Roll",
+        "price": 80,
+        "qnty": 0,
+        "cal": "220-280",
+        "rating": "4.3",
+        "img": "https://images.unsplash.com/photo-1582454235987-1e597bafcf58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHJvbGxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 8,
+        "title": "Chiken Roll",
+        "price": 160,
+        "rating": "4.1",
+        "qnty": 0,
+        "cal": "240-280",
+        "img": "https://images.unsplash.com/photo-1594020292985-216a72a2c7ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJvbGxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 9,
+        "title": "Masala Dosa",
+        "price": 165,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "180-220",
+        "img": "https://images.unsplash.com/photo-1643268972535-a2b100ff3632?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWFzYWxhJTIwZG9zYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 11,
+        "title": "Idli",
+        "price": 80,
+        "rating": "4.2",
+        "qnty": 0,
+        "cal": "160-200",
+        "img": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aWRsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      }
+    ],
+    "arrimg": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp"
+  },
+  {
+    "id": "A109",
+    "rname": "Krushnai Vadapav",
+    "imgdata": "https://media.istockphoto.com/id/1433411974/photo/vada-pav-or-wada-pao-indian-potato-sandwich.jpg?b=1&s=170667a&w=0&k=20&c=72r9w401WXwcWdy9iGV9KS_R5AfqwzlAho0CxF2TF1k=",
+    "address": "Fast Food",
+    "delimg": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+    "somedata": " 300 + order placed from here recently",
+    "price": "₹70 for one",
+    "rating": "3.8",
+    "foodList": [
+      {
+        "id": 7,
+        "title": "Egg Roll",
+        "price": 80,
+        "qnty": 0,
+        "cal": "220-280",
+        "rating": "4.3",
+        "img": "https://images.unsplash.com/photo-1582454235987-1e597bafcf58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHJvbGxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 8,
+        "title": "Chiken Roll",
+        "price": 160,
+        "rating": "4.1",
+        "qnty": 0,
+        "cal": "240-280",
+        "img": "https://images.unsplash.com/photo-1594020292985-216a72a2c7ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJvbGxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 9,
+        "title": "Masala Dosa",
+        "price": 165,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "180-220",
+        "img": "https://images.unsplash.com/photo-1643268972535-a2b100ff3632?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWFzYWxhJTIwZG9zYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 11,
+        "title": "Idli",
+        "price": 80,
+        "rating": "4.2",
+        "qnty": 0,
+        "cal": "160-200",
+        "img": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aWRsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 12,
+        "title": "MenduVada",
+        "price": 110,
+        "qnty": 0,
+        "rating": "4.1",
+        "cal": "190-220",
+        "img": "https://images.unsplash.com/photo-1630383249896-424e482df921?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aWRsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 13,
+        "title": "Cheese Pizza",
+        "price": 220,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "200-260",
+        "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 14,
+        "title": "Tomato Cheese Pizza",
+        "price": 150,
+        "qnty": 0,
+        "rating": "4.1",
+        "cal": "200-280",
+        "img": "https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      }
+    ],
+    "arrimg": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp"
+  },
+  {
+    "id": "A110",
+    "rname": "Curry Leaves",
+    "imgdata": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+    "address": "North Indian,South Indian,Chinese,Biryani,Mughlai",
+    "delimg": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+    "somedata": "1050 + order placed from here recently",
+    "price": "₹230 for one",
+    "rating": "4.2",
+    "foodList": [
+      {
+        "id": 3,
+        "title": "Soyabean Chilli",
+        "rname": "Sai chinese",
+        "category": "breakfast",
+        "price": 120,
+        "rating": "3.9",
+        "cal": "200-260",
+        "img": "https://images.unsplash.com/photo-1623689046286-01d812cc8bad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNoaW5lc2UlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 4,
+        "title": "Veg Noodles",
+        "price": 125,
+        "cal": "180-230",
+        "qnty": 0,
+        "rating": "4.0",
+        "img": "https://images.unsplash.com/photo-1635685296916-95acaf58471f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNoaW5lc2UlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 5,
+        "title": "Singapore Noodles",
+        "price": 140,
+        "qnty": 0,
+        "cal": "220-260",
+        "rating": "4.0",
+        "img": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNoaW5lc2UlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 6,
+        "title": "Tomato Soup",
+        "price": 195,
+        "qnty": 0,
+        "cal": "160-200",
+        "rating": "3.8",
+        "img": "https://images.unsplash.com/photo-1621608953630-00d9eb860392?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dG90b2F0byUyMHNvdXB8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 7,
+        "title": "Egg Roll",
+        "price": 80,
+        "qnty": 0,
+        "cal": "220-280",
+        "rating": "4.3",
+        "img": "https://images.unsplash.com/photo-1582454235987-1e597bafcf58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHJvbGxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 8,
+        "title": "Chiken Roll",
+        "price": 160,
+        "rating": "4.1",
+        "qnty": 0,
+        "cal": "240-280",
+        "img": "https://images.unsplash.com/photo-1594020292985-216a72a2c7ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJvbGxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 9,
+        "title": "Masala Dosa",
+        "price": 165,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "180-220",
+        "img": "https://images.unsplash.com/photo-1643268972535-a2b100ff3632?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWFzYWxhJTIwZG9zYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      }
+    ],
+    "arrimg": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp"
+  },
+  {
+    "id": "A111",
+    "rname": "Paratha Express",
+    "imgdata": "https://media.istockphoto.com/id/1321284778/photo/indian-cuisine-mutton-or-lamb-dish-in-a-cost-iron-cookware.jpg?b=1&s=170667a&w=0&k=20&c=bybr41GRBphEWtxttAadInB4DAxYPVlj5Qvp6rIcdGo=",
+    "address": "North Indian,Beverages",
+    "delimg": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+    "somedata": " 1175 + order placed from here recently",
+    "price": "₹180 for one",
+    "rating": "4.0",
+    "foodList": [
+      {
+        "id": 9,
+        "title": "Masala Dosa",
+        "price": 165,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "180-220",
+        "img": "https://images.unsplash.com/photo-1643268972535-a2b100ff3632?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWFzYWxhJTIwZG9zYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 11,
+        "title": "Idli",
+        "price": 80,
+        "rating": "4.2",
+        "qnty": 0,
+        "cal": "160-200",
+        "img": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aWRsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 12,
+        "title": "MenduVada",
+        "price": 110,
+        "qnty": 0,
+        "rating": "4.1",
+        "cal": "190-220",
+        "img": "https://images.unsplash.com/photo-1630383249896-424e482df921?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aWRsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 13,
+        "title": "Cheese Pizza",
+        "price": 220,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "200-260",
+        "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 14,
+        "title": "Tomato Cheese Pizza",
+        "price": 150,
+        "qnty": 0,
+        "rating": "4.1",
+        "cal": "200-280",
+        "img": "https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 15,
+        "title": "Corn Cheese Pizza",
+        "price": 240,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "180-220",
+        "img": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 16,
+        "title": "Spicy Paneer Pizza",
+        "price": 245,
+        "qnty": 0,
+        "rating": "3.8",
+        "cal": "200-240",
+        "img": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      }
+    ],
+    "arrimg": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp"
+  },
+  {
+    "id": "A112",
+    "rname": "Hotel Suruchi",
+    "imgdata": "https://media.istockphoto.com/id/1373284422/photo/indian-creamy-butter-chicken-curry-with-paratha-bread-served-in-copper-bowl.jpg?b=1&s=170667a&w=0&k=20&c=-a2xzpgIy2fTbVYpcGHJK9hvvRBHEJ4gbzaoicKJxrY=",
+    "address": "North Indian,Biryani",
+    "delimg": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+    "somedata": " 2525 + order placed from here recently",
+    "price": "₹190 for one",
+    "rating": "3.8",
+    "foodList": [
+      {
+        "id": 3,
+        "title": "Soyabean Chilli",
+        "rname": "Sai chinese",
+        "category": "breakfast",
+        "price": 120,
+        "rating": "3.9",
+        "cal": "200-260",
+        "img": "https://images.unsplash.com/photo-1623689046286-01d812cc8bad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNoaW5lc2UlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 4,
+        "title": "Veg Noodles",
+        "price": 125,
+        "cal": "180-230",
+        "qnty": 0,
+        "rating": "4.0",
+        "img": "https://images.unsplash.com/photo-1635685296916-95acaf58471f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNoaW5lc2UlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 5,
+        "title": "Singapore Noodles",
+        "price": 140,
+        "qnty": 0,
+        "cal": "220-260",
+        "rating": "4.0",
+        "img": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNoaW5lc2UlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 6,
+        "title": "Tomato Soup",
+        "price": 195,
+        "qnty": 0,
+        "cal": "160-200",
+        "rating": "3.8",
+        "img": "https://images.unsplash.com/photo-1621608953630-00d9eb860392?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dG90b2F0byUyMHNvdXB8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 7,
+        "title": "Egg Roll",
+        "price": 80,
+        "qnty": 0,
+        "cal": "220-280",
+        "rating": "4.3",
+        "img": "https://images.unsplash.com/photo-1582454235987-1e597bafcf58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHJvbGxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      }
+    ],
+    "arrimg": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp"
+  },
+  {
+    "id": "A113",
+    "rname": "Maharaja",
+    "imgdata": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+    "address": "Pizza, Fast Food, Pasta",
+    "delimg": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+    "somedata": " 650 + order placed from here recently",
+    "price": "₹200 for one",
+    "rating": "4.1",
+    "foodList": [
+      {
+        "id": 8,
+        "title": "Chiken Roll",
+        "price": 160,
+        "rating": "4.1",
+        "qnty": 0,
+        "cal": "240-280",
+        "img": "https://images.unsplash.com/photo-1594020292985-216a72a2c7ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJvbGxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 9,
+        "title": "Masala Dosa",
+        "price": 165,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "180-220",
+        "img": "https://images.unsplash.com/photo-1643268972535-a2b100ff3632?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bWFzYWxhJTIwZG9zYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 11,
+        "title": "Idli",
+        "price": 80,
+        "rating": "4.2",
+        "qnty": 0,
+        "cal": "160-200",
+        "img": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aWRsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 12,
+        "title": "MenduVada",
+        "price": 110,
+        "qnty": 0,
+        "rating": "4.1",
+        "cal": "190-220",
+        "img": "https://images.unsplash.com/photo-1630383249896-424e482df921?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aWRsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      }
+    ],
+    "arrimg": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp"
+  },
+  {
+    "id": "A114",
+    "rname": "Rock & Rolls",
+    "imgdata": "https://images.unsplash.com/photo-1511421585906-57a6e6dc3a2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHJlc3RhdXJhbnQlMjByb2xsc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+    "address": "Rolls,Non veg",
+    "delimg": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+    "somedata": " 300 + order placed from here recently",
+    "price": "₹120 for one",
+    "rating": "4.0",
+    "foodList": [
+      {
+        "id": 11,
+        "title": "Idli",
+        "price": 80,
+        "rating": "4.2",
+        "qnty": 0,
+        "cal": "160-200",
+        "img": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aWRsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 12,
+        "title": "MenduVada",
+        "price": 110,
+        "qnty": 0,
+        "rating": "4.1",
+        "cal": "190-220",
+        "img": "https://images.unsplash.com/photo-1630383249896-424e482df921?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aWRsaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 13,
+        "title": "Cheese Pizza",
+        "price": 220,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "200-260",
+        "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 14,
+        "title": "Tomato Cheese Pizza",
+        "price": 150,
+        "qnty": 0,
+        "rating": "4.1",
+        "cal": "200-280",
+        "img": "https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 15,
+        "title": "Corn Cheese Pizza",
+        "price": 240,
+        "qnty": 0,
+        "rating": "3.9",
+        "cal": "180-220",
+        "img": "https://images.unsplash.com/photo-1613564834361-9436948817d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 16,
+        "title": "Spicy Paneer Pizza",
+        "price": 245,
+        "qnty": 0,
+        "rating": "3.8",
+        "cal": "200-240",
+        "img": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      }
+    ],
+    "arrimg": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp"
+  },
+  {
+    "id": "A115",
+    "rname": "Krushnai Cafe",
+    "imgdata": "https://images.unsplash.com/photo-1514481538271-cf9f99627ab4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FmZSUyMGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+    "address": "Bakery,Desserts,Ice Cream",
+    "delimg": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+    "somedata": "1050 + order placed from here recently",
+    "price": "₹180 for one",
+    "rating": "4.2",
+    "foodList": [
+      {
+        "id": 4,
+        "title": "Veg Noodles",
+        "price": 125,
+        "cal": "180-230",
+        "qnty": 0,
+        "rating": "4.0",
+        "img": "https://images.unsplash.com/photo-1635685296916-95acaf58471f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNoaW5lc2UlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      },
+      {
+        "id": 5,
+        "title": "Singapore Noodles",
+        "price": 140,
+        "qnty": 0,
+        "cal": "220-260",
+        "rating": "4.0",
+        "img": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNoaW5lc2UlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+      }
+    ],
+    "arrimg": "https://b.zmtcdn.com/data/o2_assets/4bf016f32f05d26242cea342f30d47a31595763089.png?output-format=webp"
+  }
+]
