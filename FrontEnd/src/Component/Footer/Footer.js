@@ -1,5 +1,4 @@
 import React from "react";
-
 const Footer = () => {
   return (
     <div bgColor="light" className="text-center text-lg-left">

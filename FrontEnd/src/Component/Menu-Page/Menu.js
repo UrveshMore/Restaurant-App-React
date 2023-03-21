@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
 import { useDispatch } from "react-redux";
-import { ADD_DATA } from "../../React-redux/Menu-actions/menuaction";
+import { ADD_DATA } from "../../React-redux/Menu/menuaction";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import Navbar from "../Header/Navbar";

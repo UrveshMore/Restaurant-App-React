@@ -8,7 +8,7 @@ import {
   ADD_DATA,
   DELETE,
   REMOVE_DATA,
-} from "../../React-redux/Menu-actions/menuaction";
+} from "../../React-redux/Menu/menuaction";
 import Navbar from "../Header/Navbar";
 
 const MenuDetails = () => {

@@ -5,7 +5,7 @@ import Menu from "@mui/material/Menu";
 import { Table } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import "../style.css";
-import { DELETE } from "../../React-redux/Menu-actions/menuaction";
+import { DELETE } from "../../React-redux/Menu/menuaction";
 
 export default function Navbar() {
   const [price, setPrice] = useState(0);

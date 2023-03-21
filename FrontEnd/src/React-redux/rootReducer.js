@@ -1,5 +1,5 @@
 import { combineReducers } from "redux";
-import { cartreducer } from "./cartReducers/reducer";
+import { cartreducer } from "./Menu/reducer";
 
 import restReducer from "./restaurant/Reducer";
 

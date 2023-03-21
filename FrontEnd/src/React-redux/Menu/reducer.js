@@ -1,4 +1,4 @@
-import { ADD, REMOVE, RMV_CART } from "../Menu-actions/actionType";
+import { ADD, REMOVE, RMV_CART } from "./actionType";
 
 const INIT_STATE = {
   carts: [],

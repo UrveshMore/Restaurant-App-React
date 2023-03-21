@@ -4,12 +4,10 @@ function Err() {
   return (
     <>
       <div className="text-center ">
-      
         <br />
         <br />
         <h1>No Page Found...!</h1>
       </div>
-      
     </>
   );
 }
