@@ -33,6 +33,7 @@ export const fetchRest = () => {
         },
       })
       .then((response) => {
+        console.log("dataof ", response.data);
         const restaurants = response.data;
         dispatch(fetchRestSuccess(restaurants));
       })

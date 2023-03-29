@@ -32,6 +32,7 @@ const MenuDetails = () => {
     let comparedata = getdata.filter((e) => {
       return e.id == id;
     });
+
     setData(comparedata);
   };
   useEffect(() => {
